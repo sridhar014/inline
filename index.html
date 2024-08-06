@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlineblock</title>
+    <style>
+        table ,td,tr{
+            border: 2px solid rgb(255, 253, 253);
+            border-collapse: collapse;
+        }
+        h1{
+            border: 2px solid rgb(0, 0, 0);
+            
+        }
+        .p1{
+            width: 50vw;
+            height: 40vh;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+        .p2{
+            width: 50vw;
+            height: 50vh;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+        .p3{
+            width: 50vw;
+            height: 60vh;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+@media screen and (max-width : 420px) {
+    .p2,.p3{
+        display: none;
+    }
+}
+@media screen and (min-width: 421px) and (max-width: 760px) {
+    .p1,.p3{
+        display: none;
+    }
+}
+@media screen and (min-width: 761px) {
+    .p1,.p2{
+        display: none;
+    }
+}
+    </style>
+</head>
+<body>
+<table class="p1">
+    <caption><h1>table1</h1></caption>
+
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+
+
+</table>
+<table class="p2">
+    <caption><h1>table2</h1></caption>
+
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+
+
+</table>
+<table class="p3">
+    <caption><h1>table3</h1></caption>
+
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+        <tr>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+            <td style="background-image: url(./pic\ 04.jpg);"></td>
+        </tr>
+
+
+</table>
+</body>
+</html>
